@@ -43,7 +43,7 @@ An invoice exception platform for the work after detection: deterministic parsin
 - **Testing:** 130+ backend tests, 10 Playwright end-to-end tests, plus documented acceptance and security checks.
 - **Status:** v1.0.0 portfolio/demo release; not production-ready.
 
-[Repository](https://github.com/Mindenry/resolve-invoice-ops) · [Architecture](https://github.com/Mindenry/resolve-invoice-ops/blob/main/portfolio/PROJECT_OVERVIEW.md) · [Release notes](https://github.com/Mindenry/resolve-invoice-ops/releases/tag/v1.0.0) · [Case study](https://peerawit-portfolio.netlify.app/projects/resolve)
+[Repository](https://github.com/Mindenry/resolve-invoice-ops) · [Project overview](https://github.com/Mindenry/resolve-invoice-ops/blob/main/portfolio/PROJECT_OVERVIEW.md) · [Release notes](https://github.com/Mindenry/resolve-invoice-ops/releases/tag/v1.0.0) · [Case study](https://peerawit-portfolio.netlify.app/projects/resolve)
 
 ### DAYSHIFT — Fashion commerce and retail operations
 
