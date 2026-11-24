@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Abstract system map with a PL monogram" width="100%">
+</p>
+
 <h1 align="center">Peerawit Lakhampa</h1>
 
 <p align="center">
@@ -13,11 +17,11 @@
 
 I build full-stack web applications and the systems behind them: interfaces, APIs, data models, background jobs, and the tests that keep the important paths correct. I like problems that have to hold up outside a demo, such as concurrent approvals, inventory that stays correct under concurrent checkout, and AI that recommends without deciding.
 
-Currently open to software engineering opportunities.
+**Now:** Focused on RESOLVE and DAYSHIFT. Open to software engineering opportunities.
 
 ## About
 
-I'm a full-stack developer based in Bangkok, working mainly in TypeScript and Python. My projects are built as monorepos or modular monoliths with clear domain boundaries, versioned migrations, and documented limits. I care about server-side authorization, concurrency, tested failure paths, and release notes that say what is not ready. I'm looking for a team where I can keep learning from engineers who have shipped more than I have.
+I'm a full-stack developer based in Bangkok, working mainly in TypeScript and Python. My projects are built as monorepos or modular monoliths with clear domain boundaries, versioned migrations, and documented limits. I care about server-side authorization, concurrency, tested failure paths, and release notes that say what is not ready. I want to keep learning from engineers who have shipped more than I have.
 
 ## Tech Stack
 
@@ -30,15 +34,15 @@ I'm a full-stack developer based in Bangkok, working mainly in TypeScript and Py
 | **AI & automation** | Ollama · n8n |
 | **Testing** | Playwright · Jest · Vitest · pytest · Axe |
 
-## Featured Projects
+## Selected Work
 
-Two public projects best represent how I work. Both are documented, tested, and explicit about what is not production-ready.
+Two systems, two different constraints. Both are public, documented, tested, and explicit about what is not production-ready.
 
 ### RESOLVE — Invoice exception operations
 
 `Python` `FastAPI` `PostgreSQL + pgvector` `React`
 
-An invoice exception platform for the work after detection: deterministic parsing and ten versioned rules find problems, a local LLM gathers evidence through hybrid retrieval, and every citation is checked against a real record. Approvals are human-only and concurrency-safe, with an audit trail; the model cannot approve or execute.
+An invoice exception platform for the work after detection: deterministic parsing and ten versioned rules flag exceptions, a local LLM gathers evidence through hybrid retrieval, and every citation is checked against a real record. Approvals are human-only and concurrency-safe, with an audit trail; the model cannot approve or execute.
 
 - **Testing:** 130+ backend tests, 10 Playwright end-to-end tests, plus documented acceptance and security checks.
 - **Status:** v1.0.0 portfolio/demo release; not production-ready.
@@ -64,14 +68,10 @@ A bilingual Thai/English commerce platform with a storefront, staff operations p
 
 ## Engineering Interests
 
-- Full-stack application development
-- Backend architecture and API design
-- Database design and data integrity
-- Authentication and authorization
-- Application security
-- Automated testing
-- Deployment and infrastructure
-- AI integration with human oversight
+- **Full-stack development:** product surfaces, APIs, and data models.
+- **Correctness & security:** database design, data integrity, authorization, concurrency, and auditability.
+- **Quality:** automated tests, accessibility, deployment, and observability.
+- **AI with oversight:** retrieval-grounded assistance and human approval.
 
 ## Connect
 
@@ -79,3 +79,5 @@ A bilingual Thai/English commerce platform with a storefront, staff operations p
 - **GitHub** — [github.com/Mindenry](https://github.com/Mindenry)
 - **Email** — [peerawitm1xnd@gmail.com](mailto:peerawitm1xnd@gmail.com)
 - **Resume** — [PDF](https://peerawit-portfolio.netlify.app/peerawit-lakhampa-resume.pdf)
+
+<p align="center"><sub>Bangkok, Thailand · UTC+7</sub></p>
