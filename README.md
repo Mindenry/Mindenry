@@ -55,7 +55,7 @@ An invoice exception platform built around the work that happens after a problem
 
 A full-stack Thai fashion commerce platform: a bilingual Thai/English storefront, a staff operations portal, a NestJS commerce API, and a BullMQ worker in one pnpm/Turborepo monorepo. Checkout is server-authoritative: prices are calculated in integer cents, inventory is reserved atomically with expiry, and payment webhooks are HMAC-verified and idempotent. Refunds are serialised per order, and order transitions follow a controlled state machine with permission checks.
 
-- **Engineering highlights:** modular monolith with transactional inventory and order invariants; granular RBAC and ownership checks; structured API errors with request IDs; a shared design system across storefront and admin; Playwright purchase and admin flows plus Axe accessibility scans.
+- **Engineering highlights:** modular monolith with transactional inventory and order invariants; granular RBAC and ownership checks; structured API errors with request IDs; a single design system across the operations portal; Playwright purchase and admin flows plus Axe accessibility scans.
 - **Quality evidence:** Jest unit tests, Node integration, exchange, smoke, and workflow suites, with a documented test matrix.
 - **Readiness:** portfolio/demo ready, not production-ready. Payments, shipping, and email use sandbox or local adapters.
 
